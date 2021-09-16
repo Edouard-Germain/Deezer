@@ -6,6 +6,10 @@
     font-family: "Roboto-Bold";
     src: url(fonts/Roboto-Bold.ttf);
 }
+@font-face {
+    font-family: "Roboto-light" ;
+    src: url("fonts/Roboto-Light.ttf");
+}
 body {
     font-family: 'Roboto-Medium';
 }
@@ -87,4 +91,38 @@ header {
     color: #ee5465;
 }
 
+#two {
+    display: flex;
+    justify-content: center;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.sblock {
+    width: 350px;
+}
 
+#three {
+    background-color:  #ee5465 ;
+    color: white;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.icons {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+#three div {
+
+    padding-left: 40px;
+    padding-right: 70px;
+    
+}
+#three p {
+    font-family: "Roboto-light";
+}
