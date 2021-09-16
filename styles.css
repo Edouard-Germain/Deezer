@@ -9,6 +9,13 @@
 body {
     font-family: 'Roboto-Medium';
 }
+h1 {
+    font-size: 40px;
+}
+h2 { font-size: 28px;}
+a {
+    text-decoration: none;
+}
 header {
     display: flex;
     justify-content: space-between;
@@ -21,6 +28,63 @@ header {
 #menu {
     display: flex;
     align-items: flex-end;
+}
+#bone{
+    color: #2596be;
+    background-color: white;
+    border-radius: 30px;
+    border-color: #2596be;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-width: 0.6px;
+}
+#btwo {
+    color:  white;
+    background-color:#2596be;
+    border-radius: 30px;
+    border-color: #2596be;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-width: 0.6px;
+}
+.bred {
+    color:  white;
+    background-color:#ee5465;
+    border-radius: 30px;
+    border-color: #ee5465;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-width: 0px;
+}
+#bblack {
+    color:  black;
+    background-color:white;
+    border-radius: 30px;
+    border-color: black;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-width: 0.1px;
+}
+
+#one {
+    height: 400px;
+    padding-left: 150px;
+    background-image: url("img/hero.png");
+    background-position: left 80% top 35%;
+    background-size: 550px;
+    background-repeat: no-repeat;
+}
+
+#one h2 {
+    color: #ee5465;
 }
 
 
