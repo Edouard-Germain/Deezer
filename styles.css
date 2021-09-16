@@ -23,15 +23,19 @@ a {
 header {
     display: flex;
     justify-content: space-between;
-    box-shadow: 0px 0.5px 0px 0px rgb(185, 185, 185);
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
 
 }
 
 #menu {
     display: flex;
     align-items: flex-end;
+    word-spacing: 10px;
+    margin-right: 12px;
 }
 #bone{
     color: #2596be;
@@ -85,6 +89,7 @@ header {
     background-position: left 80% top 35%;
     background-size: 550px;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #one h2 {
@@ -104,9 +109,7 @@ header {
 #two img {
     padding-right: 35px;
 }
-#bblock {
-    
-}
+
 .sblock {
     width: 300px;
 }
@@ -148,8 +151,19 @@ header {
     display: flex;
     justify-content: center;   
 }
+.oddbutton {
+    color:  white;
+    background-color:gray;
+    border-radius: 30px;
+    border-color: gray;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-width: 0px;
+}
 .boffers {
-box-shadow: 2px darkgray;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 border: 0.2px solid;
 border-color: lightgray;
 display: flex;
@@ -160,7 +174,8 @@ padding: 12px;
 margin-right: 2px;
 }
 .unchecked {
-    color:lightgray
+    color:lightgray;
+    list-style-image: url('/img/2025986.svg');
 }
 #blueoffers {
     background-color: #2d96c7;
@@ -176,4 +191,58 @@ margin-right: 2px;
     color:lightgray;
     font-family: "Roboto-light";
     font-size: 8px;
+}
+.greyblock {
+    background-color: #f0f0f0;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-bottom: 8px;
+}
+#margebas {
+    margin-bottom: 0px;
+}
+em{
+    color:#ee5465;
+    font-style:normal;
+}
+.ctagrey {
+    color:  black;
+    border-radius: 30px;
+    border-color: black;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-width: 0.1px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+footer {
+    background-color: black;
+    color: white;
+    padding-top: 80px;
+
+}
+#glossaire { 
+    display: flex;
+    justify-content: space-around;
+    
+}
+#glossaire ul{
+    list-style-type: none;
+}
+.headlist{
+    padding-bottom: 20px;
+    color:gray;
+}
+#RSLOGO {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+@media (max-width: 768px) {
+    
 }
