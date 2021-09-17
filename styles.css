@@ -210,7 +210,7 @@ margin-right: 2px;
 #margebas {
     margin-bottom: 0px;
 }
-em{
+em {
     color:#ee5465;
     font-style:normal;
 }
@@ -254,7 +254,11 @@ footer {
         background-position: bottom;
         height: 760px;
         background-size: 300px;
-    }
+        padding-top: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;   
+     }
     #one div { 
         display: flex;
         flex-direction: column;
@@ -295,13 +299,36 @@ footer {
         justify-content: center;
         align-items: center;
         min-height: 200px;
-        max-width: 350x;
+        min-width: 350x;
     }
     .boffers{
         margin-bottom: 12px;
     }
     .mentionslégales {
-        text-align: center;
+       
 
+        
+
+    }
+    .greyblock {
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .greyblock h3 {
+        width: 100%;
+    }
+    .greyblock p {
+        display: none;
+    }
+    #glossaire { 
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #RSLOGO {
+        flex-direction: column;
+        padding-top: 60px;
     }
 }
