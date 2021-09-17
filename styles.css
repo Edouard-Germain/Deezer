@@ -47,6 +47,7 @@ header {
     padding-bottom: 5px;
     padding-top: 5px;
     border-width: 0.6px;
+    font-family: "Roboto-Medium";
 }
 #btwo {
     color:  white;
@@ -69,6 +70,7 @@ header {
     padding-bottom: 10px;
     padding-top: 10px;
     border-width: 0px;
+    font-family: "Roboto-Medium";
 }
 #bblack {
     color:  black;
@@ -80,6 +82,7 @@ header {
     padding-bottom: 10px;
     padding-top: 10px;
     border-width: 0.1px;
+    font-family: "Roboto-Medium";
 }
 
 #one {
@@ -89,7 +92,6 @@ header {
     background-position: left 80% top 35%;
     background-size: 550px;
     background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 #one h2 {
@@ -151,6 +153,9 @@ header {
     display: flex;
     justify-content: center;   
 }
+.infos {
+    color: #2596be ;
+}
 .oddbutton {
     color:  white;
     background-color:gray;
@@ -161,6 +166,7 @@ header {
     padding-bottom: 10px;
     padding-top: 10px;
     border-width: 0px;
+    font-family: "Roboto-Medium";
 }
 .boffers {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -243,6 +249,59 @@ footer {
     justify-content: space-around;
     align-items: center;
 }
-@media (max-width: 768px) {
-    
+@media (max-width: 640px) {
+    #one{
+        background-position: bottom;
+        height: 760px;
+        background-size: 300px;
+    }
+    #one div { 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        word-spacing: 6px;
+    }
+    #one button {
+        padding-left: 55px;
+        padding-right: 55px;
+        padding-bottom: 25px;
+        padding-top: 25px;
+        margin-top: 6px;
+        text-align: center;
+        font-family: "Roboto-Medium";
+    }
+    #two {
+    height: 600px;
+    flex-direction: column;
+    align-items: center;
+    }
+    #two img {
+        display: none;
+    }
+    #bblock {
+        justify-content: center;
+    }
+    #btext {
+        flex-direction: column;
+    }
+    #three {
+        height: 300px;
+        flex-direction: column-reverse;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #four {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 200px;
+        max-width: 350x;
+    }
+    .boffers{
+        margin-bottom: 12px;
+    }
+    .mentionslégales {
+        text-align: center;
+
+    }
 }
